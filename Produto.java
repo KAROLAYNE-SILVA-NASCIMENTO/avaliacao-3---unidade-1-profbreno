@@ -1,6 +1,6 @@
 
 public class Produto {
-
+    Scanner calc = New Scanner (System.in)
     private String nome;
     private double preco;
     private int quantidadeEstoque;
@@ -31,6 +31,15 @@ public class Produto {
     }
     public double getVenda() {
         return this.precoVenda;
+    }
+    float lucro; 
+
+    Calclucro(){ 
+
+        Lucro = precoValor - precoCusto; 
+
+        System.out.println ("Seu lucro é:" + lucro); 
+
     }
 
 }
